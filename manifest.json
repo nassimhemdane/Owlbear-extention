@@ -1,0 +1,28 @@
+{
+  "manifest_version": 1,
+  "name": "Hey Boi Broadcaster",
+  "version": "1.0.0",
+  "description": "Adds a button that broadcasts \"Hey boi\" to everyone at the table.",
+  "icon": "/icon.svg",
+  "action": {
+    "title": "Hey Boi",
+    "tooltip": "Open Hey Boi",
+    "icon": "/icon.svg",
+    "open": "main"
+  },
+  "windows": {
+    "main": {
+      "title": "Hey Boi",
+      "icon": "/icon.svg",
+      "preferredSize": {
+        "width": 260,
+        "height": 200
+      },
+      "minimumSize": {
+        "width": 220,
+        "height": 160
+      },
+      "url": "/index.html"
+    }
+  }
+}
